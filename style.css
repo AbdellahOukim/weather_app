@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat , sans-serif;
+    background-color: #EEE;
+}
+
+.my-app {
+    width: 60%;
+    background-color: #FFF;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.app-header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.app-header input {
+    width: 75%;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.app-header button {
+    outline: none;
+    border: none;
+    padding: 10px 16px;
+    background-color: #0069FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.app-body {
+    text-align: center;
+}
+
+.app-body > div {
+    margin-top: 30px;
+}
+
+.countrey {
+    font-weight: bold;
+}
+
+@media screen and (max-width : 500px) {
+    .my-app {
+        width: 80%;
+    }
+}
